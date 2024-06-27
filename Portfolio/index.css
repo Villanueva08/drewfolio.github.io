@@ -1,0 +1,45 @@
+.container{
+    text-align: center;
+    width: 80%;
+    margin: 18% auto;
+    opacity: 0;
+    animation: fadeInAnimation 2s forwards;
+}
+
+
+.header{
+    color: #000;
+    display: inline-block;
+}
+
+.header h1{
+    font-size: 8rem;
+    font-weight: lighter;
+    color: #D1D8C5;
+    text-shadow: 1px 1px 2px #000 ;
+}
+
+.header .span{
+    display: inline-block;
+}
+.header h5{
+    margin: 0;
+    width: 3.75rem;
+    height:1.75rem;
+    font-size: 1.3rem;
+    color: #D1D8C5;
+    float: right;
+    font-size:23px;
+    transition: width 1.5s;
+    overflow: hidden;
+
+}
+.header h5:hover{
+    width: 29rem;
+}
+
+@keyframes fadeInAnimation {
+    to {
+      opacity: 1;
+    }
+  }

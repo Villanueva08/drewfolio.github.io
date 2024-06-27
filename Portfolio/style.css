@@ -1,0 +1,12 @@
+
+*{  
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    font-family: julius sans one;
+    
+}
+body{
+    background: url(images/blur.png) no-repeat center center;
+}

@@ -1,0 +1,68 @@
+.homebtn{
+    font-size: 2.5rem;
+    margin: 80px 80px auto;
+    position: fixed;
+}
+
+.homebtn a{
+    color: #000;
+}
+
+.sidebar{
+    position: fixed;
+    margin-top: 15rem;
+    margin-left:2rem;
+}
+.sidebar a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 80%;
+    margin-left: 2rem;
+}
+
+.sidebar a:hover{
+    color: red;
+}
+
+.sidebar a:active{
+    color: red;
+    text-shadow: 1px 1px 2px #fc894d ;
+}
+
+/* Start of content */
+
+.my-profile img{
+    height:500px;
+    width: 500px;
+    border-radius: 90px;
+    display: block;
+    float: left;
+    margin-left:  43rem;
+    margin-top: 8rem;
+    box-shadow: 0 0 3px;
+}
+.main-content .my-profile{
+    animation: sidewardAnimation 2s forwards;
+    animation-timing-function: ease-out;
+}
+.main-content .text-content{
+    display: inline-block;
+    width: 40ch;
+    padding: 40px;
+    background-color: #EEEEEE;
+    font-size: 20px;
+    border-radius: 90px;
+    margin-left: -55px;
+    margin-top: 23rem;
+    box-shadow: 0 0 3px;
+    
+}
+
+@keyframes sidewardAnimation {
+    from {left: 480px;}
+    to {left: 500px;}
+  }
